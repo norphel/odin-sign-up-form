@@ -4,6 +4,7 @@
 }
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body > .left-image {
     width: 30%;
@@ -55,14 +56,58 @@ body > form > div:nth-child(1) {
 }
 body > form {
     background-color: #F9FAFB;
-    padding-left: 3rem;
 }
 body > form > div:nth-child(1) p {
     margin: 0;
+    padding-left: 3rem;
     padding-top: 3rem;
     padding-right: 6rem;
 }
 body > form > div:nth-child(2) {
     background-color: #FFF;
-
+    box-shadow: 5px 5px 5px 0px rgba(75, 75, 75, 0.3);
+    overflow: auto;
+}
+body > form > div:nth-child(2) > p {
+    padding-left: 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+body > form > div:nth-child(2) > p + div {
+    padding-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+body > form > div:nth-child(2) > p + div > div {
+    width: 50%;
+}
+input {
+    border: 0.2px solid #E5E7EB;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+}
+label {
+    color: #464646;
+    font-size: 1.1rem;
+}
+body > form > div:nth-child(3) {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+body > form > div:nth-child(3) > button {
+    border-radius: 10px;
+    padding: 12px 48px;
+    border: none;
+    background-color: #596D48;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: none;
+}
+body > form > div:nth-child(3) a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
