@@ -7,6 +7,7 @@ This mini project involved building a [sign-up form](https://www.theodinproject.
   * Fieldset
 * **Styling form elements**
 * **Client-side Form Validations**
+* **Basic Regular Expressions**
 * **CSS Position**
   * relative
   * absolute
