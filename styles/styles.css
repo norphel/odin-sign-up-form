@@ -106,8 +106,23 @@ body > form > div:nth-child(3) > button {
     font-weight: bold;
     box-shadow: none;
 }
+body > form > div:nth-child(3) > button:hover {
+    transform: scale(1.1);
+}
+body > form > div:nth-child(3) > button:active {
+    transform: scale(0.98);
+}
 body > form > div:nth-child(3) a {
     color: #596D48;
     font-weight: bold;
     text-decoration: none;
+}
+
+/******************* form validation styles ********************/
+input:focus {
+    outline: 0.2px solid blue;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+input:valid {
+    outline: 0.2px solid green;
 }
